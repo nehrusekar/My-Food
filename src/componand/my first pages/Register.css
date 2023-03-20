@@ -1,0 +1,49 @@
+.header{
+  background-image: url("https://images.pexels.com/photos/858508/pexels-photo-858508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat:no-repeat ;
+  height: 520px;
+
+} 
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: beige;
+}
+#forms{
+    text-align: center;
+    padding-top: 15px;
+}
+#forms input{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(222, 222, 236);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(241, 245, 236);
+
+}
+#errormes{
+    color: red;
+    font-weight: bold;
+}
+
+#submit{
+    border: 20px;
+    padding: 10px 20px;
+    background: dodgerblue;
+    color: white; 
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+.redpara{
+    color:rgb(251, 255, 251);
+    font-size: 20px;
+}
+.redpara a{
+    text-decoration: none;
+    font-weight: bold;
+}
+

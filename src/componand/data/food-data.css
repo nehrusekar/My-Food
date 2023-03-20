@@ -1,0 +1,74 @@
+#images{
+    width: 230px;
+    height: 290px;
+    border: 1px solid rgb(175, 165, 165);
+    border-radius: 20px !important;
+    overflow: hidden;
+    align-items: center;
+   
+}
+#images img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+#images img:hover{
+    transform: scale(1.1);
+}
+#dises {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: black;
+
+}
+#images p{
+    color: rgb(238, 230, 230);
+    text-align: center;
+    
+}
+#images h5{
+    padding-right: 20px;
+    text-align: center;
+    color: rgb(235, 227, 227);
+}
+#images #back{
+    width: 100px;
+    background: #203bb3fb !important;
+    border: none !important;
+    color:white;   
+}
+#addtocart{
+    text-align: center;
+}
+.menu-tabs{
+    background-color: black;
+}
+#navitem input{
+    border: 2px solid gray;
+    border-radius: 10px;
+    
+}
+#navitem{
+    display: flex;  
+    gap: 15px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+}
+#navitem input{
+    width: 40%;
+}
+
+#navitem button{
+   width: 75px;
+   padding-top: 3px;
+   padding-bottom: 3px;
+   background-color: rgb(204, 70, 21);
+   color: white;
+   border-radius: 20px;
+}

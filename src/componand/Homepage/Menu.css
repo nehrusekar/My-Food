@@ -1,0 +1,51 @@
+.dropmore{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 4.5rem;
+    right: 1.0rem;
+    width: 190px;
+    height: 390px;
+    padding: 4px;
+    padding-top: 10px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    font-size: 15px;
+    
+}
+.dropmore span{
+    margin-left: 20px;
+}
+.dropmore span a{
+    text-decoration: none;
+    color:black;
+    
+    
+}
+.dropmore span a:hover{
+    color:rgb(7, 131, 233);
+ }
+.dropmore{
+    gap: 14px;
+}
+.dropmore::before{
+    content: " ";
+    position: absolute;
+    top: -0.7rem;
+    right: 1.6rem;
+    width: 25px;
+    height: 25px;
+    background-color:white;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    transform: rotate(45deg);
+
+
+
+
+}
+
+    
+    

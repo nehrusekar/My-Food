@@ -1,0 +1,50 @@
+/* * {
+    background-color: rgba(233, 227, 227, 0.068);
+} */
+#cart-bar{
+    display: flex;
+    flex-direction: row 30px 30px;
+    justify-content: space-around;
+    /* border: 2px solid blueviolet; */
+    border: #e5e5e5;
+    background: #1b1b1b;
+    width: 480px;
+    height: 240px;
+    box-shadow: 15px 20px 20px rgba(54, 54, 54, 0.3);
+    overflow: hidden;
+    gap: 20px;
+    
+}
+
+
+#cart-bar img{
+    width: 280px;
+    height: 180px;
+    float: right;
+   
+    
+}
+
+#bless {
+    padding-top: 10px;
+    color: #e5e5e5;
+    gap: 20px; 
+
+}
+
+#bless button {
+    padding: 2px;
+    background: #948f8fd7;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+#tolbuimg{
+   text-align: center;
+   /* background-color:rgba(0, 0, 255, 0); */
+   
+}
+#remo-btn{
+    color: black;
+    background-color: aliceblue;
+
+}
